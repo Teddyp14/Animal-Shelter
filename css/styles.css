@@ -1,10 +1,25 @@
 h1 {
   font-size: 50px;
   text-align: center;
+  text-shadow: 3px 3px 6px gray;
+  letter-spacing: 10px;
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 40px;
+  text-align: center;
+  text-decoration-line: underline;
+  letter-spacing: 5px;
+}
+
+.welcomeMessage {
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+}
+
+body {
+  background-color: blanchedalmond;
 }
 
 .animal1 {
@@ -12,10 +27,11 @@ h2 {
   background-color: rgb(212, 253, 255);
   margin: auto;
   width: 30%;
-  height: auto;
+  height: 800px;
   display: block;
   padding: 20px;
   border-radius: 15px;
+  border-style: double;
 }
 
 .animal2 {
@@ -23,20 +39,109 @@ h2 {
   background-color: rgb(208, 205, 211);
   float: left;
   margin: auto;
-  height: auto;
+  height: 800px;
   display: block;
   padding: 20px;
   border-radius: 15px;
+  border-style: double;
 }
 
 .animal3 {
   width: 30%;
-  background-color: bisque;
+  background-color: rgb(251, 236, 218);
   float: left;
   margin: auto;
-  height: auto;
+  height: 800px;
   display: block;
   padding: 20px;
   border-radius: 15px;
+  border-style: double;
+}
+
+img {
+  margin: auto;
+  width: 50%;
+  height: auto;
+  display: block;
+}
+
+.dogBulletpoints li::before {
+  list-style-type: none;
+  content: '\1F436';
+  margin-left: -20px;
+  margin-right: 10px;
+}
+
+.catBulletpoints li::before {
+  list-style-type: none;
+  content: '\1F63A';
+  margin-left: -20px;
+  margin-right: 10px;
+}
+
+.tortoiseBulletpoints li::before {
+  list-style-type: none;
+  content: '\1F422';
+  margin-left: -20px;
+  margin-right: 10px;
+}
+
+.animal1 h2 {
+  font-family: cursive;
+}
+
+.animal2 h2 {
+  font-family: cursive;
+}
+
+.animal3 h2 {
+  font-family: cursive;
+}
+
+.ridgeback {
+  font-family: "papyrus";
+  font-style: italic;
+  font-weight: 500px;
+}
+
+.anglerFish {
+  font-family: "Lucida Console";
+  font-weight: 500px;
+}
+
+.lochness {
+  font-family: "Brush Script MT", "cursive";
+  font-weight: 500px;
+}
+
+.toughPets {
+  background-color: rgb(164, 230, 184);
+  padding: 20px;
+  /* float: left; */
+  border-radius: 15px;
+  border-style: double;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+.toughPets img {
+  height: auto;
+  width: 150px;
+  /* float: left; */
+  display: block;
+  vertical-align: middle;
+  margin: auto;
+}
+
+.toughPets li {
+  line-height: 50px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.toughPets ul {
   text-align: center;
 }
