@@ -1,0 +1,42 @@
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+.animal1 {
+  float: left;
+  background-color: rgb(212, 253, 255);
+  margin: auto;
+  width: 30%;
+  height: auto;
+  display: block;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.animal2 {
+  width: 30%;
+  background-color: rgb(208, 205, 211);
+  float: left;
+  margin: auto;
+  height: auto;
+  display: block;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.animal3 {
+  width: 30%;
+  background-color: bisque;
+  float: left;
+  margin: auto;
+  height: auto;
+  display: block;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
